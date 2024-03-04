@@ -23,3 +23,5 @@ v
 Fapp/src/main/java/com/example/testcasesbychzcode/utils/CoroutinTest.kt,4\7\47b681633913ffd355a8987d193bba6a8d5fabc0
 ‚
 Rapp/src/test/java/com/example/testcasesbychzcode/utils/utilsforCoroutinTestTest.kt,2\9\294aa86c6219c5c9dd87065344fd3f70372b2748
+w
+Gapp/src/main/java/com/example/testcasesbychzcode/utils/StateHoisting.kt,b\6\b675ff30d05b0b2eb9aef71b1f1574b8234b8a8d
