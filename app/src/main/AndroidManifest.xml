@@ -18,7 +18,7 @@
             android:label="@string/title_activity_main"
             android:theme="@style/Theme.TestCasesByChzCode" />
         <activity
-            android:name=".MainActivity"
+            android:name=".MainActivity22"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
