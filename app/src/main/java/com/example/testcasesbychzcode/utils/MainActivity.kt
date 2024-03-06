@@ -3,7 +3,9 @@ package com.example.testcasesbychzcode.utils
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
@@ -40,7 +42,28 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
-    TestCasesByChzCodeTheme {
-        Greeting("Android")
+
+        NumbersList()
+
+}
+@Composable
+fun NumbersList() {
+    LazyColumn {
+        items(1000) { index ->
+            Text(text = "Item $index")
+        }
+    }
+}
+@Composable
+fun NumbersList2() {
+    LazyColumn {
+        items(1000) { index ->
+            Text(
+                text = "Item $index",
+                modifier = Modifier.clickable {
+                    println("Item $index clicked")
+                }
+            )
+        }
     }
 }

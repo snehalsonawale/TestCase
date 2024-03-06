@@ -25,3 +25,5 @@ Fapp/src/main/java/com/example/testcasesbychzcode/utils/CoroutinTest.kt,4\7\47b
 Rapp/src/test/java/com/example/testcasesbychzcode/utils/utilsforCoroutinTestTest.kt,2\9\294aa86c6219c5c9dd87065344fd3f70372b2748
 v
 Fapp/src/main/java/com/example/testcasesbychzcode/utils/MainActivity.kt,3\4\34aa300e24eae0778ae7d561d767dd0375cd24f9
+@
+build.gradle.kts,d\b\dbcff70658daf80b53ce624f6adcaa529df5ed8d
