@@ -27,3 +27,5 @@ v
 Fapp/src/main/java/com/example/testcasesbychzcode/utils/MainActivity.kt,3\4\34aa300e24eae0778ae7d561d767dd0375cd24f9
 @
 build.gradle.kts,d\b\dbcff70658daf80b53ce624f6adcaa529df5ed8d
+\
+,.idea/inspectionProfiles/Project_Default.xml,4\9\496a238a6afa168dbaf6efd37bb459331589579c
